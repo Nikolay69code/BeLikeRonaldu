@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecealActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fone"
+        android:contentDescription="@string/specealscrol">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textSp1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="ЛУЧШИЕ ЦИТАТЫ КРИШТИАНУ РОНАЛДУ"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textSize = "30sp"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textSp2"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мне всегда нравилось принимать вызовы и ощущать давление — иначе я бы давно повесил бутсы на гвоздь."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp3"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Всегда оставайтесь оптимистами. Надо быть профессионалом и работать так, как вы можете. Тяжелый труд является ключом к успеху."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp4"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Каждому игроку нужно прогрессировать – всегда есть, к чему стремиться."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp5"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мы, футболисты, иногда совершаем ошибки. Самое главное – это подняться с колен и двигаться дальше, научиться на собственных ошибках и все исправить в следующем году."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я из тех людей, которые любят сложные задачи. Вся моя жизнь направлена на поиск новых вызовов."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp7"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вокруг меня много слухов и лжи — это цена славы."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp8"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я всегда говорю то, что думаю. Говорю, как есть. Возможно, это как раз то, что многие во мне не любят."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp9"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Создайте собственные правила, установите цели и следуйте им. Никто не сможет сделать этого за вас."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp10"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Некоторые люди постоянно ищут оправдания или говорят, что у них не было возможности. Но если вы хотите что-то сделать – вы можете это сделать."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp11"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Возможно, для вас лучшим будет Месси, другие могут думать, что таковым является Иньеста. Я уважаю выбор каждого, но для меня лучшим в мире являюсь я сам."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp12"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Легко стать испорченным, когда ты просыпаешься на большой кровати, ешь йогурт с фруктами, а в твоем гараже есть быстрые автомобили. Вчера мой сын спросил меня: «Могу ли я иметь Iphone 6?». Я ответил: «Нет, зачем тебе телефон? Кому ты собираешься звонить?», – «Я буду звонить тебе, папа», – «Я буду звонить бабушке и она будет давать тебе телефон», – то, что я ему ответил."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp13"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я не перфекционист, но мне нравится знать, что я всё сделал качественно. Что более важно, я испытываю бесконечную потребность учиться, совершенствоваться, расти, но не только ради того, чтобы порадовать тренера и фанатов, но и для того, чтобы самому чувствовать удовлетворение. Я убеждён, что учиться можно бесконечно, никогда не останавливаться, и неважно, сколько тебе лет."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp14"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="У нас есть деньги, у нас есть машины, у нас есть всё. Но вы не знаете, через что мы прошли, чтобы этого достигнуть."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp15"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уровень игры является следствием усердной многолетней работы, непреклонной преданности делу, и год от года ничего не меняется в этом плане. Я собираюсь продолжать в том же ключе. Ничего не происходит случайно. Одного лишь таланта недостаточно, если ты не трудишься, если не прикладываешь усилий каждый день."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp16"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если Вы не увлечены тем, что делаете, вы не будете двигаться вперёд и никогда не сможете реализовать свой потенциал. Но вы также должны быть ментально и физически сильны, должны постоянно работать, чтобы получать возможность для достижения успеха."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp17"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Когда мне было семь лет, я поведал моему папе, что хочу иметь дом, как у Майкла Джексона. И тогда он сказал мне, что мечты остаются мечтами, это привилегия богатых людей. Я вырос, и теперь моя мечта сбылась – жаль, что этого не видит мой отец."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp18"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я готов продолжать работать после того, как выиграл всё на спортивном уровне и с финансовой точки зрения… Если у вас нет такого желания, нет смысла продолжать."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp19"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я не могу жаловаться, потому что я там, где всегда хотел быть. Я знал, что если доберусь до этого уровня, то мне придется иметь дело с определенными трудностями – постоянно находиться под пристальным вниманием, не имея возможности делать простые вещи, как например ходить в кино, ужинать в ресторане, чтобы меня не узнали. Я признаю, что иногда бывает сложно, но есть гораздо больше позитивных аспектов, нежели негативных."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp20"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я достиг всего того, что сейчас имею, потому что много работал. Ничего не случается просто так. Нужно стремиться, полностью посвящать себя цели, и, конечно, нужна частичка удачи."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp21"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мой отец всегда учил меня, что если ты делаешь добро и помогаешь другим, Бог вернет тебе это вдвойне. Так и произошло со мной. Я старался помогать нуждающимся, а Бог помог мне гораздо больше."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp22"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мне нравится, когда люди насмехаются надо мной. Люблю видеть ненависть в их глазах, слышать оскорбления. Меня это никак не задевает. Я всем отвечаю на футбольном поле."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp23"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приходит время, и ты доходишь до точки, когда необходимо бросить вызов самому себе. Ведь тебе больше не нужно что-то доказывать кому-либо. Конечно, я могу сказать, что выиграл все, и теперь мне не нужно устанавливать для себя цели. Да, возможно, я могу начать работать меньше. Но всегда нужно продолжать идти вперёд и оставаться амбициозным."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp24"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Как я говорил много раз, я не могу назвать себя идеальным. Я человек. Я состою из плоти и крови, как и все люди. Я плачу, я смеюсь, у меня есть мои проблемы. Когда я говорил что-то, что говорить не следовало, я приносил свои извинения. С возрастом люди учатся на своих ошибках."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp25"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Мне нравится выигрывать всегда, но я понимаю, что это зависит не от меня – иногда ты выигрываешь, иногда проигрываешь, такова жизнь."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp26"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Иметь талант не достаточно. Нужно упорно работать."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp27"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Возможно, Месси мотивирует меня, но главным мотиватором для себя являюсь я сам. Я конкурирую сам с собой и всё ещё мотивирован."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp29"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="На тренировках я часто показывал разные финты, которые никто не мог повторить. Как-то я хвастал перед Скоулзом. Пол взял мяч, указал на дерево, стоявшее метрах в пятидесяти от нас, и сказал, что попадет в него с первой попытки. Он ударил и попал. И попросил меня повторить. Я же ударил раз десять, но ни разу не поразил цель. Скоулз улыбнулся и покинул поле."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp30"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я считаю, что в футболе, как и в любом другом виде спорта, действуют те же правила, что и в жизни. Он научил меня тому, что я могу добиться своей цели упорной работой, настойчивостью и решимостью."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp31"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я смотрю на него [Месси] не как на соперника, а как на человека, который делает меня лучше, и я делаю лучше его."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp32"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я не имею ничего против людей, ненавидящих меня, потому что они мотивируют меня. Когда мы играем на выезде, они всегда настроены против меня, но это даже хорошо. Нужно видеть и какую-то пользу от тех, кто тебя ненавидит. Мне нужен враг. Это часть моей работы. Они начинают свистеть каждый раз, когда я касаюсь мяча. Это началось ещё с тех пор, как мне было 18 или 19 лет. Для меня это не проблема, а мотивация."
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

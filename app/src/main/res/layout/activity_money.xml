@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoneysActivity">
+
+    <ScrollView
+        android:id="@+id/scrollmoney"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fone"
+        android:contentDescription="@string/moneyscrol" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="ФИНАНСЫ"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize = "40sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="@string/money1" />
+            <ImageView
+                android:id="@+id/imageV"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/money1" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor = "@color/white"
+                android:textSize = "25sp"
+                android:text="Накопи на свою Бугатти!" />
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor = "@color/white"
+                android:textSize = "25sp"
+                android:text="0 рублей" />
+            <EditText
+                android:id="@+id/editText_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите сумму денег в рублях"
+                android:layout_marginBottom="15dp"
+                android:padding="8sp"
+                android:textColor="@color/white"
+                android:singleLine="false"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:ems="10"
+                android:inputType="numberPassword"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                app:cornerRadius = "50dp">
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:onClick="Chelendg"
+                    android:textSize="10sp"
+                    tools:ignore="TextSizeCheck"
+                    android:text="Потратил" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:onClick="Chelendg"
+                    android:textSize="10dp"
+                    tools:ignore="TextSizeCheck"
+                    android:text="Заработал" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Моя жизнь всегда была вызовом. Я человек с характером победителя и всегда им останусь, вне зависимости от того где я играю, я хочу выигрывать.'-Криштиану Роналду" />
+            <ImageView
+                android:id="@+id/imageV1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/money3"/>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Я достиг всего того, что сейчас имею, потому что много работал. Ничего не случается просто так. Нужно стремиться, полностью посвящать себя цели, и, конечно, нужна частичка удачи.' Криштиану Роналду" />
+            <ImageView
+                android:id="@+id/imageV2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/money4"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'В тот момент, когда я узнал о смерти отца, я думал, что моя жизнь на этом закончится, но я собрался с духом и решил сделать то, что желал мой отец — он хотел, чтобы его сын стал лучшим.' Криштиану Роналду" />
+            <ImageView
+                android:id="@+id/imageV3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/money5"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Чтобы находиться на высочайшем уровне, мы должны отличаться от других. Мы должны быть лучше и профессиональнее.' Криштиану Роналду" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
